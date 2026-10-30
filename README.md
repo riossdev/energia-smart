@@ -40,4 +40,4 @@ Es un sitio estático: abre `index.html` en el navegador o publícalo con GitHub
 ## Equipo
 
 Geraldine Asprilla Martínez · Santiago Muñoz Gómez · Juan Esteban Ríos Pulgarín
-I.U. Pascual Bravo · Tecnología en Desarrollo de Software · Seminario de Emprendimiento e Innovación · 2026
+I.U. Pascual Bravo · Ingeniería de Software · Seminario de Emprendimiento e Innovación · 2026
