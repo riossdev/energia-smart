@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Energía-Smart · Prototipo</title>
+  <meta name="description" content="Prototipo de alta fidelidad de Energía-Smart: monitoreo de energía en tiempo real para pymes.">
+  <meta name="theme-color" content="#0F766E">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="stage">
+    <aside class="guide" aria-label="Guía del prototipo">
+      <div class="guide__brand">
+        <img src="assets/logo.svg" alt="" width="40" height="40">
+        <div>
+          <strong>Energía-Smart</strong>
+          <span>Tu energía bajo control, a un clic.</span>
+        </div>
+      </div>
+      <p class="guide__lead">Prototipo de alta fidelidad. Navega tocando los botones del celular, como lo haría un usuario real, o salta a cualquier momento del flujo.</p>
+      <ol class="guide__steps" id="guide-steps"></ol>
+      <button class="guide__reset" id="reset-demo" type="button">Reiniciar demo</button>
+      <footer class="guide__team">
+        Geraldine Asprilla Martínez · Santiago Muñoz Gómez · Juan Esteban Ríos Pulgarín<br>
+        I.U. Pascual Bravo · Tecnología en Desarrollo de Software<br>
+        Seminario de Emprendimiento e Innovación · 2026
+      </footer>
+    </aside>
+
+    <div class="device" id="device">
+      <div class="device__notch" aria-hidden="true"></div>
+      <div class="statusbar" aria-hidden="true">
+        <span class="statusbar__time">11:42</span>
+        <span class="statusbar__icons">
+          <i data-lucide="signal"></i><i data-lucide="wifi"></i><i data-lucide="battery-full"></i>
+        </span>
+      </div>
+      <main class="screen" id="screen" tabindex="-1"></main>
+      <nav class="tabbar" id="tabbar" aria-label="Navegación principal"></nav>
+      <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+      <div class="sheet" id="sheet" role="dialog" aria-modal="true" hidden></div>
+      <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
